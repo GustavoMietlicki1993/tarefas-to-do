@@ -6,43 +6,52 @@ using System.Linq;
 
     public class CriarTarefa
     {
-
-        public static int idDaTarefa = 0;
-        public string nomeDaTarefa = "";
+        
+        
+        public int valorId;
+        public string tema;
+        
+        
+       
          
-        public List<CriarTarefa> addTarefa(List<CriarTarefa> ListaTarefas){
-            
+        public List<Tarefas> AddTarefa(List<Tarefas> tarefa)
+        {
             Console.Clear();
+            Console.WriteLine("***********************************");
+
             Console.WriteLine("Digite o ID da tarefa: ");
-            int id = Convert.ToInt32(Console.ReadLine());
+
+            int valor = int.Parse(Console.ReadLine());
+
             Console.WriteLine("Digite o nome da tarefa: ");
+
             string nome = Console.ReadLine();
 
-            ListaTarefas.Add(new Tarefas{
-                idDaTarefa = id,
-                nomeDaTarefa = nome,
-            
-            });
+            Console.WriteLine("");
+            Console.WriteLine("Operação realizada com sucesso.");
+            Console.WriteLine("");
+            Console.WriteLine("****************************************");
 
-            return ListaTarefas;
+            tarefa.Add
+            ( 
+                new Tarefas()
+            { 
+                valorId = valor, 
+                tema = nome
+            }
+            );
+            
+            
+            
+            return tarefa;
+
+           
         }
+        
+
+
+        
     }
 
 
-//  public void getTarefas(List<Tarefas> Lista){
-            
-//             // var resultado = Lista.Where(x => x.idTarefa != 0).ToList();
 
-//             foreach (var item in Lista)
-//             {   
-//                 Console.Write($"ID da tarefa: {item.idTarefa}\t|\t");
-//                 Console.Write($"Nome da tarefa: {item.nomeTarefa}\t|\t");
-//                 if(item.statusTarefa){
-//                     Console.WriteLine($"Status da tarefa: Concluida\t|\t");
-//                 }else{
-//                     Console.WriteLine($"Status da tarefa: Não concluida\t\t");
-//                 }
-//                 Console.WriteLine($"------------------------------------------------------------------------------");
-//             }
-
-//         }

@@ -1,0 +1,11 @@
+C:\Users\gustavo.mietlicki\Documents\DEV\DOTNET\C#\Projetos\tarefas-to-do\obj\Debug\netcoreapp3.1\tarefas To Do.csprojAssemblyReference.cache
+C:\Users\gustavo.mietlicki\Documents\DEV\DOTNET\C#\Projetos\tarefas-to-do\obj\Debug\netcoreapp3.1\tarefas To Do.AssemblyInfoInputs.cache
+C:\Users\gustavo.mietlicki\Documents\DEV\DOTNET\C#\Projetos\tarefas-to-do\obj\Debug\netcoreapp3.1\tarefas To Do.AssemblyInfo.cs
+C:\Users\gustavo.mietlicki\Documents\DEV\DOTNET\C#\Projetos\tarefas-to-do\bin\Debug\netcoreapp3.1\tarefas To Do.exe
+C:\Users\gustavo.mietlicki\Documents\DEV\DOTNET\C#\Projetos\tarefas-to-do\bin\Debug\netcoreapp3.1\tarefas To Do.deps.json
+C:\Users\gustavo.mietlicki\Documents\DEV\DOTNET\C#\Projetos\tarefas-to-do\bin\Debug\netcoreapp3.1\tarefas To Do.runtimeconfig.json
+C:\Users\gustavo.mietlicki\Documents\DEV\DOTNET\C#\Projetos\tarefas-to-do\bin\Debug\netcoreapp3.1\tarefas To Do.runtimeconfig.dev.json
+C:\Users\gustavo.mietlicki\Documents\DEV\DOTNET\C#\Projetos\tarefas-to-do\bin\Debug\netcoreapp3.1\tarefas To Do.dll
+C:\Users\gustavo.mietlicki\Documents\DEV\DOTNET\C#\Projetos\tarefas-to-do\bin\Debug\netcoreapp3.1\tarefas To Do.pdb
+C:\Users\gustavo.mietlicki\Documents\DEV\DOTNET\C#\Projetos\tarefas-to-do\obj\Debug\netcoreapp3.1\tarefas To Do.dll
+C:\Users\gustavo.mietlicki\Documents\DEV\DOTNET\C#\Projetos\tarefas-to-do\obj\Debug\netcoreapp3.1\tarefas To Do.pdb
