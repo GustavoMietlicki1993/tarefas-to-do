@@ -32,11 +32,8 @@ using System.Linq;
             }
             );
             
-            
-            
             return tarefa;
 
-           
         }
         
 
