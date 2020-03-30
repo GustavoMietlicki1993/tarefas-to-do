@@ -2,18 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-
-
     public class CriarTarefa
     {
-        
-        
-        public int valorId;
-        public string tema;
-        
-        
-       
-         
+          
         public List<Tarefas> AddTarefa(List<Tarefas> tarefa)
         {
             Console.Clear();

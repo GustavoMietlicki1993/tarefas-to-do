@@ -1,9 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-
-
-
 public class MenuInicial
 {
     public static List<Tarefas> listaDetarefas = new List<Tarefas>( );
@@ -41,7 +38,8 @@ public class MenuInicial
                 case 3:
                     Console.Clear();
                     Console.WriteLine("Opção selecionada : VIZUALIZAR TODAS AS TAREFAS");
-                    ComecarMenuInicial();
+                    TarefasArmazenadas c = new TarefasArmazenadas();
+                    c.imprimirTdTarefas(listaDetarefas);
                     break;
 
                 default:
