@@ -5,16 +5,16 @@ using System.Linq;
     {
     
 
-        public void ConcluirUmaTarefa(List<Tarefas> lista)
+        public List<Tarefas> ConcluirUmaTarefa(List<Tarefas> lista)
         {
             Console.Clear();
             Console.WriteLine("***********************************");
 
-            Console.WriteLine("Digite o ID da tarefa: ");
+            Console.WriteLine("Digite o ID da tarefa a ser concluida: ");
 
             int valor = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o nome da tarefa: ");
+            Console.WriteLine("Digite o nome da tarefa a ser concluida: ");
 
             string nome = Console.ReadLine();
 
@@ -25,16 +25,13 @@ using System.Linq;
 
             bool v = lista.Remove
             ( 
-                new Tarefas()
+               new Tarefas
             { 
                 valorId = valor, 
                 tema = nome
             });
 
-        
-    
-            
-            
+            return lista;
         }
 
     }
